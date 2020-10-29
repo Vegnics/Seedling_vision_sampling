@@ -1,0 +1,179 @@
+
+(org.inkscape.Inkscape:22658): GLib-GIO-WARNING **: 13:16:22.721: Error creating IO channel for /proc/self/mountinfo: Permission denied (g-file-error-quark, 2)
+
+(org.inkscape.Inkscape:22658): GLib-GObject-WARNING **: 13:16:56.722: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:22658): GLib-GObject-CRITICAL **: 13:16:56.722: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:22658): GLib-GObject-WARNING **: 13:17:26.866: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:22658): GLib-GObject-CRITICAL **: 13:17:26.866: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:22658): GLib-GObject-WARNING **: 13:17:35.082: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:22658): GLib-GObject-CRITICAL **: 13:17:35.082: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:22658): GLib-GIO-WARNING **: 13:17:41.351: Error creating IO channel for /proc/self/mountinfo: Permission denied (g-file-error-quark, 2)
+
+(org.inkscape.Inkscape:22658): GLib-GObject-WARNING **: 13:18:23.167: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:22658): GLib-GObject-CRITICAL **: 13:18:23.167: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:22658): GLib-GObject-WARNING **: 13:18:45.221: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:22658): GLib-GObject-CRITICAL **: 13:18:45.221: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:22658): GLib-GObject-WARNING **: 13:18:50.869: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:22658): GLib-GObject-CRITICAL **: 13:18:50.869: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:22658): GLib-GObject-WARNING **: 13:19:30.321: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:22658): GLib-GObject-CRITICAL **: 13:19:30.321: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:22658): GLib-GObject-WARNING **: 13:19:34.987: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:22658): GLib-GObject-CRITICAL **: 13:19:34.988: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:22658): GLib-GObject-WARNING **: 13:21:30.532: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:22658): GLib-GObject-CRITICAL **: 13:21:30.532: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:22658): GLib-GObject-WARNING **: 13:21:52.130: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:22658): GLib-GObject-CRITICAL **: 13:21:52.131: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+SPDocument::doUnref(): invalid ref count! -1
+
+(org.inkscape.Inkscape:22658): GLib-GObject-WARNING **: 13:25:05.248: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:22658): GLib-GObject-CRITICAL **: 13:25:05.248: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:22658): GLib-GObject-WARNING **: 13:25:16.090: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:22658): GLib-GObject-CRITICAL **: 13:25:16.090: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+SPDocument::doUnref(): invalid ref count! -1
+
+(org.inkscape.Inkscape:22658): GLib-GObject-WARNING **: 13:25:39.970: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:22658): GLib-GObject-CRITICAL **: 13:25:39.970: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:22658): GLib-GObject-WARNING **: 13:26:12.300: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:22658): GLib-GObject-CRITICAL **: 13:26:12.300: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:22658): GLib-GObject-WARNING **: 13:26:51.785: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:22658): GLib-GObject-CRITICAL **: 13:26:51.785: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:22658): GLib-GObject-WARNING **: 13:27:05.589: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:22658): GLib-GObject-CRITICAL **: 13:27:05.589: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+SPDocument::doUnref(): invalid ref count! -1
+
+(org.inkscape.Inkscape:22658): GLib-GObject-WARNING **: 13:27:17.245: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:22658): GLib-GObject-CRITICAL **: 13:27:17.245: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:22658): GLib-GIO-WARNING **: 13:27:51.885: Error creating IO channel for /proc/self/mountinfo: Permission denied (g-file-error-quark, 2)
+
+(org.inkscape.Inkscape:22658): GLib-GIO-WARNING **: 13:29:05.137: Error creating IO channel for /proc/self/mountinfo: Permission denied (g-file-error-quark, 2)
+SPDocument::doUnref(): invalid ref count! -1
+SPDocument::doUnref(): invalid ref count! -1
+SPDocument::doUnref(): invalid ref count! -1
+
+(org.inkscape.Inkscape:22658): GLib-GIO-WARNING **: 13:38:10.892: Error creating IO channel for /proc/self/mountinfo: Permission denied (g-file-error-quark, 2)
+
+(org.inkscape.Inkscape:22658): GLib-GIO-WARNING **: 13:38:58.614: Error creating IO channel for /proc/self/mountinfo: Permission denied (g-file-error-quark, 2)
+
+(org.inkscape.Inkscape:22658): GLib-GIO-WARNING **: 13:40:15.118: Error creating IO channel for /proc/self/mountinfo: Permission denied (g-file-error-quark, 2)
+
+(org.inkscape.Inkscape:22658): GLib-GIO-WARNING **: 13:48:03.769: Error creating IO channel for /proc/self/mountinfo: Permission denied (g-file-error-quark, 2)
+SPDocument::doUnref(): invalid ref count! -1
+
+(org.inkscape.Inkscape:11658): GLib-GObject-WARNING **: 12:22:31.012: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:11658): GLib-GObject-CRITICAL **: 12:22:31.023: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:11658): GLib-GIO-WARNING **: 12:22:50.422: Error creating IO channel for /proc/self/mountinfo: Permission denied (g-file-error-quark, 2)
+
+(org.inkscape.Inkscape:11658): GLib-GObject-WARNING **: 12:23:04.370: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:11658): GLib-GObject-CRITICAL **: 12:23:04.370: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:11658): GLib-GObject-WARNING **: 12:23:15.141: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:11658): GLib-GObject-CRITICAL **: 12:23:15.141: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:11658): GLib-GObject-WARNING **: 12:23:17.372: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:11658): GLib-GObject-CRITICAL **: 12:23:17.372: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:11658): GLib-GObject-WARNING **: 12:23:20.283: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:11658): GLib-GObject-CRITICAL **: 12:23:20.283: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:11658): GLib-GObject-WARNING **: 12:23:21.773: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:11658): GLib-GObject-CRITICAL **: 12:23:21.773: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:11658): GLib-GObject-WARNING **: 12:23:39.432: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:11658): GLib-GObject-CRITICAL **: 12:23:39.433: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:11658): GLib-GObject-WARNING **: 12:23:45.804: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:11658): GLib-GObject-CRITICAL **: 12:23:45.804: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:11658): GLib-GObject-WARNING **: 12:24:00.388: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:11658): GLib-GObject-CRITICAL **: 12:24:00.388: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:11658): GLib-GObject-WARNING **: 12:24:14.732: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:11658): GLib-GObject-CRITICAL **: 12:24:14.732: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:11658): GLib-GIO-WARNING **: 12:24:20.308: Error creating IO channel for /proc/self/mountinfo: Permission denied (g-file-error-quark, 2)
+
+(org.inkscape.Inkscape:11658): GLib-GObject-WARNING **: 12:24:29.570: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:11658): GLib-GObject-CRITICAL **: 12:24:29.570: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:11658): GLib-GObject-WARNING **: 12:24:44.523: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:11658): GLib-GObject-CRITICAL **: 12:24:44.523: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:11658): GLib-GObject-WARNING **: 12:24:57.014: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:11658): GLib-GObject-CRITICAL **: 12:24:57.014: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:11658): GLib-GObject-WARNING **: 12:24:59.909: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:11658): GLib-GObject-CRITICAL **: 12:24:59.909: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:11658): GLib-GObject-WARNING **: 12:25:15.437: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:11658): GLib-GObject-CRITICAL **: 12:25:15.438: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:11658): GLib-GIO-WARNING **: 12:25:31.366: Error creating IO channel for /proc/self/mountinfo: Permission denied (g-file-error-quark, 2)
+
+(org.inkscape.Inkscape:11658): GLib-GIO-WARNING **: 12:26:26.105: Error creating IO channel for /proc/self/mountinfo: Permission denied (g-file-error-quark, 2)
+SPDocument::doUnref(): invalid ref count! -1
+
+(org.inkscape.Inkscape:11658): GLib-GIO-WARNING **: 12:28:36.598: Error creating IO channel for /proc/self/mountinfo: Permission denied (g-file-error-quark, 2)
+
+(org.inkscape.Inkscape:11658): GLib-GIO-WARNING **: 12:29:07.462: Error creating IO channel for /proc/self/mountinfo: Permission denied (g-file-error-quark, 2)
+
+(org.inkscape.Inkscape:11658): GLib-GIO-WARNING **: 12:30:01.266: Error creating IO channel for /proc/self/mountinfo: Permission denied (g-file-error-quark, 2)
+
+(org.inkscape.Inkscape:11658): GLib-GIO-WARNING **: 12:34:39.475: Error creating IO channel for /proc/self/mountinfo: Permission denied (g-file-error-quark, 2)
+
+(org.inkscape.Inkscape:11658): GLib-GIO-WARNING **: 12:34:55.386: Error creating IO channel for /proc/self/mountinfo: Permission denied (g-file-error-quark, 2)
+SPDocument::doUnref(): invalid ref count! -1
+SPDocument::doUnref(): invalid ref count! -1
+SPDocument::doUnref(): invalid ref count! -1
+SPDocument::doUnref(): invalid ref count! -1
+SPDocument::doUnref(): invalid ref count! -1
+SPDocument::doUnref(): invalid ref count! -1
+SPDocument::doUnref(): invalid ref count! -1
+SPDocument::doUnref(): invalid ref count! -1
+SPDocument::doUnref(): invalid ref count! -1
