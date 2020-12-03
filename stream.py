@@ -8,8 +8,8 @@ from PIL import Image,ImageTk
 #RGB cameras max. resolution at 3264X2448 @ 15fps
 #RGB allowed parameters  Brightness, Contrast, Saturation,Sharpness, Gamma, Gain, White balance, Hue,Backlight Contrast, Exposure
 _canvas_size=(256,192)#width,height
-_distance=0.4 #ground distance or max distance
-_seedlingheight=0.15
+_distance=0.46 #ground distance or max distance
+_seedlingheight=0.28 #minimum distance
 _depthscale=9.999999747378752e-05
 _cropregion=[(32,245),(707,1000)]
 _RGBTOPPORT=3
@@ -29,7 +29,7 @@ _no_depth_frame=cv2.putText(_BLANK, "DEPTH CAMERA NOT FOUND", (50, 50), fontFace
 
 def colorize(depth_image,resize=True):
     d_image=_depthscale*(depth_image.astype(np.float))
-    _min=_distance-_seedlingheight
+    _min=_seedlingheight #_distance-_seedlingheight
     _max=_distance
     normalized=255.0*(d_image-_min)/(_max-_min)
     normalized=np.clip(normalized,0,255).astype(np.uint8)
@@ -82,13 +82,13 @@ class videostream:
         self.depth_sensor = self.pipeline_profile.get_device().first_depth_sensor()
         self.depth_sensor.set_option(rs.option.emitter_enabled, 1)
         self.depth_sensor.set_option(rs.option.laser_power, 250)
-        self.depth_sensor.set_option(rs.option.depth_units, 0.0001)
+        self.depth_sensor.set_option(rs.option.depth_units, 0.0001) #changed 0.0001
         self.temp_filter=rs.temporal_filter()
         self.temp_filter.set_option(rs.option.filter_smooth_alpha,0.8)
         self.temp_filter.set_option(rs.option.filter_smooth_delta,10)
-        self.temp_filter.set_option(rs.option.holes_fill,4)
+        self.temp_filter.set_option(rs.option.holes_fill,1.0)
         self.spatial_filter=rs.spatial_filter()
-        self.spatial_filter.set_option(rs.option.holes_fill,4)
+        self.spatial_filter.set_option(rs.option.holes_fill,3)
         device = self.pipeline_profile.get_device()
         #print(device.sensors[0].get_info(rs.camera_info.physical_port))
     def restart_depth_cam(self):
@@ -240,7 +240,7 @@ class videostream:
                     depth_frame = self.spatial_filter.process(depth_frame)
                     depth_frame = self.temp_filter.process(depth_frame)
                 #    color_frame = frames.get_color_frame()
-                depth_frame = aligned_frames.get_depth_frame() #From frames.get_depth_frame()
+                #depth_frame = aligned_frames.get_depth_frame() #From frames.get_depth_frame()
                 depth_frame = self.temp_filter.process(depth_frame)
                 color_frame = aligned_frames.get_color_frame() #From frames.get_color_frame()
                 depth_image = np.asanyarray(depth_frame.get_data())

@@ -25,6 +25,7 @@ class seedling_sample:
         self.depth=None
         self.toprgb=None
         self.sidergb=None
+        self.quality=None
 
 class seedling_dataset:
     def __init__(self,folder):
@@ -46,4 +47,5 @@ class seedling_dataset:
         ssample.toprgb=cv2.imread(self.folder+sample.depthrgb,1)
         ssample.sidergb=cv2.imread(self.folder+sample.rgbside,1)
         ssample.depth=_depth_scale*np.load(self.folder+sample.depth)
+        ssample.quality=sample.quality
         return ssample

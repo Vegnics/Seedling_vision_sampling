@@ -177,3 +177,73 @@ SPDocument::doUnref(): invalid ref count! -1
 SPDocument::doUnref(): invalid ref count! -1
 SPDocument::doUnref(): invalid ref count! -1
 SPDocument::doUnref(): invalid ref count! -1
+
+(org.inkscape.Inkscape:19152): GLib-GIO-WARNING **: 17:10:39.415: Error creating IO channel for /proc/self/mountinfo: Permission denied (g-file-error-quark, 2)
+
+(org.inkscape.Inkscape:19152): GLib-GObject-WARNING **: 17:11:00.602: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:19152): GLib-GObject-CRITICAL **: 17:11:00.602: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:19152): GLib-GObject-WARNING **: 17:12:16.437: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:19152): GLib-GObject-CRITICAL **: 17:12:16.437: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:19152): GLib-GObject-WARNING **: 17:12:19.444: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:19152): GLib-GObject-CRITICAL **: 17:12:19.444: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:19152): GLib-GObject-WARNING **: 17:12:49.399: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:19152): GLib-GObject-CRITICAL **: 17:12:49.399: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:19152): GLib-GObject-WARNING **: 17:12:55.829: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:19152): GLib-GObject-CRITICAL **: 17:12:55.829: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:19152): GLib-GObject-WARNING **: 17:13:20.719: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:19152): GLib-GObject-CRITICAL **: 17:13:20.719: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:19152): GLib-GObject-WARNING **: 17:13:26.205: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:19152): GLib-GObject-CRITICAL **: 17:13:26.206: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:19152): GLib-GObject-WARNING **: 17:13:34.399: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:19152): GLib-GObject-CRITICAL **: 17:13:34.399: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:19152): GLib-GObject-WARNING **: 17:13:39.043: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:19152): GLib-GObject-CRITICAL **: 17:13:39.043: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:19152): GLib-GObject-WARNING **: 17:13:44.240: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:19152): GLib-GObject-CRITICAL **: 17:13:44.240: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:19152): GLib-GObject-WARNING **: 17:13:54.941: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:19152): GLib-GObject-CRITICAL **: 17:13:54.942: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:19152): GLib-GObject-WARNING **: 17:14:00.489: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:19152): GLib-GObject-CRITICAL **: 17:14:00.489: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:19152): GLib-GObject-WARNING **: 17:14:03.003: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:19152): GLib-GObject-CRITICAL **: 17:14:03.003: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:19152): GLib-GObject-WARNING **: 17:14:04.917: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:19152): GLib-GObject-CRITICAL **: 17:14:04.918: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:19152): GLib-GObject-WARNING **: 17:19:02.738: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:19152): GLib-GObject-CRITICAL **: 17:19:02.738: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:19152): GLib-GObject-WARNING **: 17:19:11.606: invalid (NULL) pointer instance
+
+(org.inkscape.Inkscape:19152): GLib-GObject-CRITICAL **: 17:19:11.606: g_signal_emit_valist: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(org.inkscape.Inkscape:19152): GLib-GIO-WARNING **: 17:21:17.834: Error creating IO channel for /proc/self/mountinfo: Permission denied (g-file-error-quark, 2)
+
+(org.inkscape.Inkscape:19152): Gtk-CRITICAL **: 17:21:17.963: gtk_window_set_transient_for: assertion 'parent == NULL || GTK_IS_WINDOW (parent)' failed

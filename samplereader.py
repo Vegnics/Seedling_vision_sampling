@@ -29,7 +29,7 @@ intrinsics.model=rs.distortion.inverse_brown_conrady
 intrinsics.coeffs=[0.0,0.0,0.0,0.0,0.0]
 
 #Set the dataset folder
-folder="/home/labinm_robotica/sampling_example/"
+folder="/home/labinm_robotica/new_seed_db/"
 
 #GUI and mouse
 cv2.namedWindow("depthimage")
@@ -41,13 +41,13 @@ sample_num=1
 #Open the sample
 with open(folder+"Sample{}.pkl".format(sample_num),"rb") as file:
     Sample=pickle.load(file)
-    print(folder+Sample.rgbtop)
+    print(folder+Sample.depthrgb)
 depth_rgb=cv2.imread(folder+Sample.depthrgb,1)
 depth=depth_scale*np.load(folder+Sample.depth)
 colorized=colorize(depth,resize=False)
 
 #Segment rgb image using depth information
-binarized_coords=zip(*np.where((depth<0.33)&(depth>0.03)))# pixels between 3cm and 33 cm
+binarized_coords=zip(*np.where((depth<0.36)&(depth>0.25)))# pixels between 3cm and 33 cm
 binarized_coords=list(binarized_coords)
 binarized_rgb=np.zeros(depth_rgb.shape,dtype=np.uint8)
 for coord in binarized_coords:
