@@ -28,6 +28,7 @@ depth_sensor.set_option(rs.option.laser_power,280)
 depth_scale=depth_sensor.get_depth_scale()
 time.sleep(1)
 
+
 #Get intrinsics
 intrinsics=pipeline_profile.get_stream(rs.stream.color).as_video_stream_profile().get_intrinsics()
 print(intrinsics)
