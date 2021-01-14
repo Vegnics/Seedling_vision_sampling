@@ -1,6 +1,6 @@
 import pickle
 import cv2
-from Sampling_app import Sample
+#from Sampling_app import Sample
 import os
 import time
 import numpy as np
@@ -19,6 +19,19 @@ _intrinsics.fx=906.286
 _intrinsics.fy=905.369
 _intrinsics.model=rs.distortion.inverse_brown_conrady
 _intrinsics.coeffs=[0.0,0.0,0.0,0.0,0.0]
+
+EVEN=0
+ODD=1
+
+class Sample:
+    def __init__(self):
+        self.rgbtop=None
+        self.rgbside=None
+        self.depth=None
+        self.depthrgb=None
+        self.timestamp=None
+        self.parity=EVEN
+        self.quality="a"
 
 class seedling_sample:
     def __init__(self):
