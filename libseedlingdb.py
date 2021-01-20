@@ -4,21 +4,21 @@ import cv2
 import os
 import time
 import numpy as np
-import pyrealsense2 as rs
+#import pyrealsense2 as rs
 import json
 
 
 #GLOBAL VARIABLES
 _depth_scale=9.999999747378752e-05
-_intrinsics=rs.intrinsics()
-_intrinsics.width=1280
-_intrinsics.height=720
-_intrinsics.ppx=639.399
-_intrinsics.ppy=350.551
-_intrinsics.fx=906.286
-_intrinsics.fy=905.369
-_intrinsics.model=rs.distortion.inverse_brown_conrady
-_intrinsics.coeffs=[0.0,0.0,0.0,0.0,0.0]
+#_intrinsics=rs.intrinsics()
+#_intrinsics.width=1280
+#_intrinsics.height=720
+#_intrinsics.ppx=639.399
+#_intrinsics.ppy=350.551
+#_intrinsics.fx=906.286
+#_intrinsics.fy=905.369
+#_intrinsics.model=rs.distortion.inverse_brown_conrady
+#_intrinsics.coeffs=[0.0,0.0,0.0,0.0,0.0]
 
 EVEN=0
 ODD=1
@@ -62,3 +62,13 @@ class seedling_dataset:
         ssample.depth=_depth_scale*np.load(self.folder+sample.depth)
         ssample.quality=sample.quality
         return ssample
+    def change_quality(self,num,quality):
+        with open(self.folder + "Sample{}.pkl".format(num), "rb") as file:
+            print(file)
+            sample = pickle.load(file)
+            file.close()
+        sample.quality=quality
+        file = open(self.folder + "Sample{}.pkl".format(num), "wb")
+        pickle.dump(sample, file)
+        file.close()
+        return

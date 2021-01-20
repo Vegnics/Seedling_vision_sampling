@@ -39,10 +39,21 @@ def click_depth_rgb(event, x, y, flags, param):
     if event == cv2.EVENT_LBUTTONDOWN:
         d_image = depth.astype(np.float)
         point = rs.rs2_deproject_pixel_to_point(intrinsics, [y, x], d_image[y, x])
-        print("X= {x}, Y={y}, Z={z}".format(x=100 * point[0], y=100 * point[1], z=100 * point[2])) #
+        print("X= {x}, Y={y}, Z={z}, H={h}, S={s}".format(x=100 * point[0], y=100 * point[1], z=100 * point[2],h=binarized_hsv[y,x,0],s=binarized_hsv[y,x,1])) #
     return
 
+def nearest_pixel_contour(px,cnt):
+    distances=np.abs(cnt[:,0]-px[1])+np.abs(cnt[:,1]-px[0])
+    min_idx = np.argmin(distances)
+    print(cnt[min_idx,::-1])
+    return cnt[min_idx,::-1]
 
+def merge_contours(cnt1,cnt2,cnt3):
+    cnt1 = np.array(cnt1).reshape(len(cnt1),2)
+    cnt2 = np.array(cnt2).reshape(len(cnt2),2)
+    cnt3 = np.array(cnt3).reshape(len(cnt3),2)
+    cnt = np.vstack((cnt1,cnt2,cnt3))
+    return cnt
 
 
 #Set the dataset folder
@@ -53,13 +64,18 @@ cv2.namedWindow("depthimage")
 cv2.setMouseCallback("depthimage", click_depth_rgb)
 
 #Set the sample number
-sample_num=57
+sample_num=34
 
 #Open the sample
 DB=seedb.seedling_dataset(folder)
 sample=DB.read_sample(sample_num)
-depth=sample.depth
+depth_orig=sample.depth
 depth_rgb=sample.toprgb
+hsv_img = cv2.cvtColor(depth_rgb,cv2.COLOR_BGR2HSV)
+
+depth= np.ones(depth_orig.shape)
+depth[450:,380:1150] = depth_orig[450:,380:1150]
+
 colorized=colorize(depth)
 
 #Segment rgb image using depth information
@@ -77,13 +93,15 @@ mask=np.zeros(depth.shape,dtype=np.uint8)
 
 for coord in binarized_coords:
     binarized_rgb[coord[0],coord[1]]= depth_rgb[coord[0],coord[1]]
-    #mask[coord[0],coord[1]]=255
+    mask[coord[0],coord[1]]=255
 
 for coord in invalid_coords:
     binarized_rgb[coord[0],coord[1]]= [0,0,255]
 
 for coord in out_coords:
     binarized_rgb[coord[0],coord[1]]= [255,0,0]
+
+
 
 #Show the results
 #binarized_rgb=cv2.bitwise_or(depth_rgb,depth_rgb,mask=mask)
